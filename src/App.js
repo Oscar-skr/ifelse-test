@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import Blogs from './components/Blogs/Blogs';
+import { Routes, Route } from "react-router-dom";
+import Landing from './components/Landing/Landing';
+import BlogDetail from './components/BlogDetail/BlogDetail';
+import NavBar from './components/NavBar/NavBar';
+import { useLocation } from 'react-router-dom';
+import Form from './Form/Form';
 
 function App() {
+  const location = useLocation();
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {location.pathname !=="/" && <NavBar />}
+      <Routes>
+        <Route path="/" element={<Landing />} />
+        <Route path="/home" element={<Blogs />} />
+        <Route path="/detail/:id" element={<BlogDetail />} />
+        <Route path="/contacto" element={<Form />} />
+      </Routes>
     </div>
   );
 }

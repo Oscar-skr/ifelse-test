@@ -1,0 +1,24 @@
+.Contenedor_NavBar{
+    background-color: goldenrod;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+
+}
+
+.Link1{
+    margin-right: 10px;
+    width: 100px;
+    text-decoration: none;
+    color: white;
+}
+
+.Link2{
+    margin-left: 20px;
+    width: 100px;
+    text-decoration: none;
+    color: white;
+    margin-left: 0%;
+}
+

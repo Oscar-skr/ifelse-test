@@ -1,0 +1,4 @@
+export const GET_BLOGS = "GET_BLOGS";
+export const GET_DESTACADAS = "GET_DESTACADAS";
+export const GET_BLOG_DETAIL = "GET_BLOG_DETAIL";
+export const CLEAN_DETAIL = "CLEAN_DETAIL"

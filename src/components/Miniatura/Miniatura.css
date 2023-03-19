@@ -1,0 +1,32 @@
+.imagePortada{
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.contenedorMiniatura{
+    margin-top: 5px;
+    border: solid 1px;
+    max-width: 400px;
+    margin-bottom: 5px;
+    border-width: 5px;
+    border-image: linear-gradient(to bottom, rgb(253, 253, 253), rgb(201, 185, 18)) 1;
+}
+
+.contenedorMiniatura:hover{
+    transform: scale(1.02);
+    box-shadow: 10px 10px 5px 0px rgba(255,213,25,0.6);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(255,213,25,0.6);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(255,213,25,0.6);
+}
+
+.titulominiatura{
+    text-transform: uppercase;
+}
+
+.parrafo{
+    text-transform: capitalize;
+}
+
+.link{
+    text-decoration: none;
+}

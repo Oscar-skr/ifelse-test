@@ -1,0 +1,46 @@
+.contenedorForm{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: 0 auto;
+    position: relative;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;
+
+    
+}
+
+button{
+    background-color: goldenrod;
+    border: yellow;
+    margin-top: 5px;
+    border-radius: 25rem;
+}
+
+button:hover{
+    transform: 1.2;
+    box-shadow: 10px 10px 5px 0px rgba(255,213,25,0.6);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(255,213,25,0.6);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(255,213,25,0.6);
+}
+
+input, textarea{
+    border-radius: 25rem;
+    box-shadow: -2px 2px 53px 0px rgba(218,165,32,0.75);
+    -webkit-box-shadow: -2px 2px 53px 0px rgba(218,165,32,0.75);
+    -moz-box-shadow: -2px 2px 53px 0px rgba(218,165,32,0.75);
+}
+
+h3{
+    display: none;
+}
+
+.contactenos{
+    display: block;
+    font-size: 50px;
+    font-family: monospace;
+    white-space: nowrap;
+    width: 21ch;
+    color: goldenrod;
+}
